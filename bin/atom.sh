@@ -1,6 +1,6 @@
-#!/usr/bin/env mksh
+#!/usr/bin/mksh
 # Usage: atom.sh files (index.html won't be included)
-source config.sh
+PATH=$PATH:. . config.sh
 
 cat <<EOF
 <?xml version="1.0" encoding="utf-8"?>

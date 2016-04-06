@@ -1,6 +1,6 @@
-#!/usr/bin/env mksh
+#!/usr/bin/mksh
 # Usage: check.sh file(s)
-source config.sh
+. config.sh
 
 check() {
   case ${1} in

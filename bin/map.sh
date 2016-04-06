@@ -1,6 +1,6 @@
-#!/usr/bin/env mksh
+#!/usr/bin/mksh
 # Usage: map.sh
-source config.sh
+PATH=$PATH:. . config.sh
 
 cat > ${TARG}/sitemap.xml <<EOF
 <?xml version="1.0" encoding="UTF-8"?><urlset>
