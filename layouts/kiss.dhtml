@@ -1,0 +1,6 @@
+#-# vim:ft=html:
+LAYOUT=layouts/layout.dhtml
+TITLE="Pickfire if you dare. Hahaha"
+#-#
+
+${CONTENT}

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>${TITLE}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    ${HEAD}
+  </head>
+  <body>
+    <header>
+      <span><strong>SSSG</strong><span id=info> - <em>Simple Static Site Generator</em></span></span>
+    </header>
+    <div id="menu">
+      <span class="left">
+        <a href=sssg.pickfire.wha.la id=here>sssg</a>
+      </span>
+      <span class="right">
+        <a href="http://git.pickfire.wha.la/sssg/">Source</a>
+        <a href="http://pickfire.wha.la/">Home</a>
+      </span>
+    </div>
+    <div id="nav">${NAV}</div>
+    <div id="main">
+      ${CONTENT}
+    </div>
+    <footer>
+      <span class="right">
+        © 2015-2016 <a href='http://pickfire.wha.la/about/contact'>Ivan Tham</a>
+      </span>
+    </footer>
+  </body>
+</html>

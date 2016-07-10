@@ -1,0 +1,5 @@
+#-# vim:ft=html:nospell:
+LAYOUT=layouts/layout.dhtml
+#-#
+
+${CONTENT}

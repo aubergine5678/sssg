@@ -1,0 +1,3 @@
+LAYOUT=layouts/post.dhtml
+TITLE=$(grep '^[A-Z][a-z].*' $forig | head -n1)
+SUB="Simple Static Site Generator"
